@@ -1,9 +1,58 @@
 {
-  "name": "react-native-aws3",
-  "version": "0.0.9",
-  "description": "Pure JavaScript react native library for uploading to AWS S3",
+  "_args": [
+    [
+      "git+https://github.com/benjreinhart/react-native-aws3.git",
+      "/Users/feliperojos/Projects/datascope/datascope"
+    ]
+  ],
+  "_from": "git+https://github.com/benjreinhart/react-native-aws3.git",
+  "_id": "react-native-aws3@git+https://github.com/benjreinhart/react-native-aws3.git#d848b5a18a87fa4e548157f65f2debab8623fbd5",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-native-aws3",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/benjreinhart/react-native-aws3.git",
+    "rawSpec": "git+https://github.com/benjreinhart/react-native-aws3.git",
+    "saveSpec": "git+https://github.com/benjreinhart/react-native-aws3.git",
+    "fetchSpec": "https://github.com/benjreinhart/react-native-aws3.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/benjreinhart/react-native-aws3.git#d848b5a18a87fa4e548157f65f2debab8623fbd5",
+  "_spec": "git+https://github.com/benjreinhart/react-native-aws3.git",
+  "_where": "/Users/feliperojos/Projects/datascope/datascope",
   "author": {
     "name": "Ben Reinhart"
+  },
+  "bugs": {
+    "url": "https://github.com/benjreinhart/react-native-aws3/issues"
+  },
+  "dependencies": {
+    "buffer": "^4.5.1",
+    "crypto-js": "^3.1.6"
+  },
+  "description": "Pure JavaScript react native library for uploading to AWS S3",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-jest": "^19.0.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-stage-3": "^6.22.0",
+    "jest": "^19.0.2"
+  },
+  "files": [
+    "lib",
+    "src",
+    "index.js"
+  ],
+  "homepage": "https://github.com/benjreinhart/react-native-aws3#readme",
+  "jest": {
+    "testPathIgnorePatterns": [
+      "node_modules/"
+    ]
   },
   "keywords": [
     "react",
@@ -16,16 +65,12 @@
     "ios",
     "android"
   ],
+  "license": "MIT",
   "main": "index.js",
-  "files": [
-    "lib",
-    "src",
-    "index.js"
-  ],
-  "jest": {
-    "testPathIgnorePatterns": [
-      "node_modules/"
-    ]
+  "name": "react-native-aws3",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjreinhart/react-native-aws3.git"
   },
   "scripts": {
     "build": "babel src --out-dir lib",
@@ -34,23 +79,5 @@
     "test": "jest",
     "test-watch": "jest --watch"
   },
-  "dependencies": {
-    "buffer": "^4.5.1",
-    "crypto-js": "^3.1.6"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.24.0",
-    "babel-jest": "^19.0.0",
-    "babel-preset-es2015": "^6.24.0",
-    "babel-preset-stage-3": "^6.22.0",
-    "jest": "^19.0.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/benjreinhart/react-native-aws3"
-  },
-  "bugs": {
-    "url": "https://github.com/benjreinhart/react-native-aws3/issues"
-  },
-  "license": "MIT"
+  "version": "0.0.9"
 }
