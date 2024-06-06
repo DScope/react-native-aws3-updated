@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "buffer": "^4.5.1",
-    "crypto-js": "^3.1.6"
+    "crypto-js": "^4.2.0"
   },
   "description": "Pure JavaScript react native library for uploading to AWS S3",
   "devDependencies": {
